@@ -1,0 +1,38 @@
+.footer {
+  padding: 4rem 0 4rem 0;
+  background: #f7f7f7;
+  border-top: 1px solid lightgrey;
+  margin: 0;
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__copyright,
+  &__developer-info {
+    font-size: 1.4rem;
+    font-weight: 100;
+  }
+
+  &__developer-info {
+    text-transform: uppercase;
+  }
+
+  &__developer-link {
+    font-weight: 400;
+    color: #000;
+
+    &:hover {
+      border-bottom: 1px solid url;
+    }
+  }
+
+  @media screen and (max-width: $xsmall-break-point) {
+    &__container {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+  }
+}

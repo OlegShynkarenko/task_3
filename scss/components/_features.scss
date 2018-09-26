@@ -1,0 +1,52 @@
+.features {
+  padding: 10rem 0 10rem 0;
+  background-color: #fff;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__container-item {
+    text-align: center;
+    max-width: 36rem;
+  }
+
+  &__image-container {
+    position: relative;
+    margin: 0 auto;
+    width: 6rem;
+    height: 6rem;
+    display: inline-block;
+    padding: 2rem;
+    border: 2px solid #000;
+    border-radius: 50%;
+  }
+
+  &__item-image_mod {
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+
+  &__heading {
+    &::after {
+      content: "";
+      width: 8.8rem;
+      height: 0.1rem;
+      background-color: red;
+      display: block;
+      margin: 1rem auto 0;
+    }
+  }
+
+  @media screen and (max-width: $small-break-point) {
+    &__container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}

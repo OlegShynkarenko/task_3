@@ -1,0 +1,77 @@
+.intro {
+  padding-top: 10rem;
+  background-color: #f7f7f7;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__photo {
+    margin-bottom: -0.2rem;
+  }
+
+  &__intro-description {
+    margin: 7rem 0 0 12rem;
+  }
+
+  &__intro-heading:after {
+    content: "";
+    width: 9rem;
+    height: 0.1rem;
+    background-color: #ff0000;
+    display: block;
+    margin: 1rem 0 0 0;
+  }
+
+  &__intro-text {
+    margin-bottom: 4rem;
+  }
+
+  &__intro__intro-text_mod {
+    margin-bottom: 3rem;
+  }
+
+  &__button-appstore,
+  &__button-googleplay {
+    height: 3.9rem;
+    width: 11.2rem;
+
+    &:hover {
+      opacity: 0.6;
+      transition: 0.4s;
+    }
+  }
+
+  &__button-appstore {
+    margin-right: 1rem;
+  }
+
+  @media screen and (max-width: $small-break-point) {
+    padding-bottom: 2rem;
+
+    &__container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__intro-description {
+      margin: 0 auto;
+      width: 75%;
+      vertical-align: center;
+      text-align: center;
+    }
+    &__intro-heading:after {
+      content: "";
+      width: 9rem;
+      height: 0.1rem;
+      background-color: transparent;
+    }
+  }
+  @media screen and (max-width: $xsmall-break-point) {
+    &__photo {
+      display: none;
+    }
+  }
+}
