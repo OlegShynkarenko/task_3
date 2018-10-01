@@ -7,7 +7,7 @@
   text-decoration: none;
 }
 
-.heading_3 {
+.heading {
   font-size: 1.8rem;
   font-weight: bold;
   color: #000;
@@ -31,7 +31,7 @@
 
 .header {
   height: 100vh;
-  padding: rem 0 0 0;
+  padding: 2rem 0 0 0;
   background: url("../images/header_background.png") center/cover no-repeat;
 }
 
@@ -244,6 +244,11 @@
 
 .intro__intro-description {
   margin: 7rem 0 0 12rem;
+}
+
+.intro__intro-heading {
+  font-size: 1.8rem;
+  text-transform: uppercase;
 }
 
 .intro__intro-heading:after {

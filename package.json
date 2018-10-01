@@ -1,5 +1,5 @@
 {
-  "name": "task-01",
+  "name": "task-03",
   "private": true,
   "version": "1.0.0",
   "description": "",
@@ -25,8 +25,9 @@
     "lint-staged": "^7.3.0"
   },
   "lint-staged": {
-    "*.{js,json,css,md}": [
-      "prettier --write",
+
+    "*.html": [
+      "js-beautify -s 2 -w 80 -r",
       "git add"
     ]
   },

@@ -15,6 +15,11 @@
     margin: 7rem 0 0 12rem;
   }
 
+  &__intro-heading {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+  }
+
   &__intro-heading:after {
     content: "";
     width: 9rem;
