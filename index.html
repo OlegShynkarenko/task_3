@@ -1,10 +1,244 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Title</title>
-    </head>
-    <body>
-        
-    </body>
+<html class="page" lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.0.0/normalize.css">
+  <title>Fudi</title>
+  <link rel="stylesheet" href="dist/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__container container">
+      <nav class="header__navigation">
+        <a class="header__logo" href="#"><img src="images/logo.png" alt="header logo"></a>
+        <a class="header__list-link link" href="#">Log In</a>
+        <a class="header__list-link link" href="#">Sign Up</a>
+        <a class="header__list-link link" href="#"><img src="images/burger.png"
+            alt="burger element"></a>
+
+      </nav>
+      <div class="header__container-bottom">
+        <p class="header__bottom-text">Find your Favourite</p>
+        <h1 class="header__bottom-recipes">Recipes</h1>
+        <button class="header__button">Get Started</button>
+        <p class="header__bottom-reworded">or send us your recipes and
+          <a class="header__bottom-link link" href="#">get rewarded!</a></p>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="features">
+      <div class="features__container container">
+        <section class="features__container-item">
+          <span class="features__image-container"><img class="features__item-image"
+              src="images/hamburger.png" alt="hamburger picture"></span>
+          <h3 class="features__heading heading">Get Inspired</h3>
+          <p class="features__text text">Lorem ipsum dolor sit amet,
+            consectetur adipisc
+            Pellentesque vel enim a elit viverra elementuma.
+            Aliquam erat volutpat.</p>
+        </section>
+        <section class="features__container-item">
+          <span class="features__image-container"><img class="features__item-image_mod"
+              src="images/cash.png" alt="cash picture"></span>
+          <h3 class="features__heading heading">Get Rewarded</h3>
+          <p class="features__text text">Lorem ipsum dolor sit amet,
+            consectetur adipisc
+            Pellentesque vel enim a elit viverra elementuma.
+            Aliquam erat volutpat.</p>
+        </section>
+        <section class="features__container-item">
+          <span class="features__image-container"><img class="features__item-image"
+              src="images/chief.png" alt="chief picture"></span>
+          <h3 class="features__heading heading">Get Social</h3>
+          <p class="features__text text">Lorem ipsum dolor sit amet,
+            consectetur adipisc
+            Pellentesque vel enim a elit viverra elementuma.
+            Aliquam erat volutpat.</p>
+        </section>
+      </div>
+    </section>
+    <section class="intro">
+      <div class="intro__container container">
+        <div class="intro__photo">
+          <img src="images/iphone5.png" alt="iphone five photo">
+        </div>
+        <section class="intro__intro-description">
+          <h2 class="intro__intro-heading">Introducing the fudi app</h2>
+          <p class="intro__intro-text text">
+            Morbi eget posuere dolor. Pellentesque cursus aliquet aliquet.
+            Aeneanet
+            felis sit amet diam mollis ullamcorper. Nullam consequat sem a ante
+            vest
+            ibulum tristique. Suspendisse tristique lacus ac mattis porta.
+          </p>
+          <p class="intro__intro-text text">
+            Vivamus ligula quam, vehicula non lacinia sed, faucibus sit amet
+            libero. In
+            libero dui, eleifend eu nisi id, egestas fringilla odio. In varius
+            quam a mas
+            sa hendrerit ullamcorper a eu justo. Suspendisse porta mattis
+            convallis.
+            Aenean tempus ligula ac odio rhoncus, quis aliquam dolor accumsan.
+          </p>
+          <p class="intro__intro-text text intro__intro-text_mod">
+            Suspendisse aliquet felis consectetur libero congue, sed pulvinar
+            diam
+            malesuada. Duis vehicula a nibh id hendrerit. Donec sit amet
+            ultrices
+            ante, a mattis massa.
+          </p>
+          <div class="intro__intro-buttons">
+            <a class="intro__button-appstore" href="#"><img src="images/appstore.png"></a>
+            <a class="intro__button-googleplay" href="#"><img src="images/googleplay.png"></a>
+          </div>
+        </section>
+      </div>
+    </section>
+    <section class="review">
+      <div class="review__container container">
+        <div class="review__container-item">
+          <img class="review_reviewer-photo" src="images/reviewer_photo.png"
+            alt="reviewer photo">
+        </div>
+        <div class="review__container-item">
+          <blockquote class="review__quote">
+            “I am so happy because I found this recipe, and it just made my
+            life easier.<br>
+            Thanks so much for sharing!”
+          </blockquote>
+        </div>
+        <div class="review__container-item">
+          <cite class="review__quote-author">- Michael Dawson, San Francisco,
+            CA -</cite>
+        </div>
+        <div class="review__container-item">
+          <a class="review__switcher-item"><img src="images/review_switcher_dot_active.png"
+              alt="slider switcher dot"></a>
+          <a class="review__switcher-item review__switcher-item_mod"><img src="images/review_switcher_dot.png"
+              alt="slider switcher dot"></a>
+          <a class="review__switcher-item"><img src="images/review_switcher_dot.png"
+              alt="slider switcher dot"></a>
+        </div>
+      </div>
+    </section>
+    <section class="cuisines">
+      <h3 class="cuisines__cuisines-heading heading">Browse by cuisine</h3>
+      <section class="cuisines__cuisines-list">
+        <div class="cuisines__cuisines-list-item cuisine__cuisines-list-item_1"><a
+            href="#">
+            <img class="cuisines__food-img" src="images/italian_food.png" alt="italian food photo">
+            <span class="cuisines__recipes-amount">327 Recipes</span>
+            <h3 class="cuisines__cuisine-name">Italian</h3>
+          </a>
+        </div>
+        <div class="cuisines__cuisines-list-item cuisine__cuisines-list-item_2"><a
+            href="#">
+            <img class="cuisines__food-img" src="images/indian.png" alt="indian food photo">
+            <span class="cuisines__recipes-amount">856 Recipes</span>
+            <h3 class="cuisines__cuisine-name">Indian</h3>
+          </a>
+        </div>
+        <div class="cuisines__cuisines-list-item cuisine__cuisines-list-item_3">
+          <a href="#">
+            <img class="cuisines__food-img" src="images/french_food.png" alt="french food photo">
+            <span class="cuisines__recipes-amount">27 Recipes</span>
+            <h3 class="cuisines__cuisine-name">French</h3>
+          </a>
+        </div>
+        <div class="cuisines__cuisines-list-item cuisine__cuisines-list-item_4">
+          <a href="#">
+            <img class="cuisines__food-img" src="images/steakhouse.png" alt="steak photo">
+            <span class="cuisines__recipes-amount">174 Recipes</span>
+            <h3 class="cuisines__cuisine-name">Steakhouse</h3>
+          </a>
+        </div>
+        <div class="cuisines__cuisines-list-item cuisine__cuisines-list-item_5">
+          <a href="#">
+            <img class="cuisines__food-img" src="images/seafood.png" alt="seafood photo">
+            <span class="cuisines__recipes-amount">731 Recipes</span>
+            <h3 class="cuisines__cuisine-name">Seafood</h3>
+          </a>
+        </div>
+        <div class="cuisines__cuisines-list-item">
+          <a href="#">
+            <img class="cuisines__food-img" src="images/sushi.png" alt="sushi photo">
+            <span class="cuisines__recipes-amount">237 Recipes</span>
+            <h3 class="cuisines__cuisine-name">Sushi</h3>
+          </a>
+        </div>
+        <div class="cuisines__cuisines-list-item">
+          <a href="#">
+            <img class="cuisines__food-img" src="images/american.png" alt="mexican food photo">
+            <span class="cuisines__recipes-amount">529 Recipes</span>
+            <h3 class="cuisines__cuisine-name">Mexican</h3>
+          </a>
+        </div>
+        <div class="cuisines__cuisines-list-item">
+          <a href="#">
+            <img class="cuisines__food-img" src="images/chinese.png" alt="chinese food photo">
+            <span class="cuisines__recipes-amount">145 Recipes</span>
+            <h3 class="cuisines__cuisine-name">Chinese</h3>
+          </a>
+        </div>
+        <div class="cuisines__cuisines-list-item">
+          <a href="#">
+            <img class="cuisines__food-img" src="images/pizza.png" alt="pizza photo">
+            <span class="cuisines__recipes-amount">327 Recipes</span>
+            <h3 class="cuisines__cuisine-name">Pizza</h3>
+          </a>
+        </div>
+        <div class="cuisines__cuisines-list-item">
+          <a href="#">
+            <img class="cuisines__food-img" src="images/american.png" alt="american food photo">
+            <span class="cuisines__recipes-amount">1.437 Recipes</span>
+            <h3 class="cuisines__cuisine-name">American</h3>
+          </a>
+        </div>
+      </section>
+    </section>
+    <section class="statistic">
+      <div class="statistic__container container">
+        <ul class="statistic__list">
+          <li class="statistic__list-item">
+            <b class="statistic__list-amount">23,567</b>
+            <span class="statistic__list-description">Recipes Available</span>
+          </li>
+          <li class="statistic__list-item">
+            <b class="statistic__list-amount">431,729</b>
+            <span class="statistic__list-description">Active Users</span>
+          </li>
+          <li class="statistic__list-item">
+            <b class="statistic__list-amount">892,173</b>
+            <span class="statistic__list-description">Positive Reviews</span>
+          </li>
+          <li class="statistic__list-item">
+            <b class="statistic__list-amount">56,581</b>
+            <span class="statistic__list-description">Photos & Videos</span>
+          </li>
+          <li class="statistic__list-item">
+            <b class="statistic__list-amount">3,182</b>
+            <span class="statistic__list-description">Spices and Herbs</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__container container">
+      <div>
+        <p class="footer__copyright">©2014 Fudi. All Rights Reserved.</p>
+      </div>
+      <div>
+        <p class="footer__developer-info">DESIGN BY: <a class="footer__developer-link link"
+            href="#">WWW.BEKADES.COM</a></p>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>

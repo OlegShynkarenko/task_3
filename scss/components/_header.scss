@@ -1,0 +1,114 @@
+.header {
+  height: 100vh;
+  padding: 2rem 0 0 0;
+  background: url("../images/header_background.png") center/cover no-repeat;
+
+  &__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    margin-right: auto;
+  }
+
+  &__list-link {
+    margin: 0 3rem 0 3rem;
+    color: #fff;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+
+    &:hover {
+      border-bottom: 1px solid #fff;
+    }
+  }
+
+  &__container-bottom {
+    margin: 24rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__bottom-text {
+    font-family: "Times New Roman", serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 3.6rem;
+    color: #fff;
+    margin: 0;
+  }
+
+  &__bottom-recipes {
+    margin: 0 0 2rem 0;
+    font-weight: bold;
+    font-size: 10rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    color: #fff;
+  }
+
+  &__button {
+    width: 27.7rem;
+    height: 6.7rem;
+    background-color: transparent;
+    border: 0.3rem solid #fff;
+    outline: none;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+
+    &:hover {
+      opacity: 0.3;
+      transition: 0.5s;
+    }
+  }
+
+  &__bottom-reworded {
+    margin-top: 5rem;
+    height: 1rem;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #fff;
+  }
+
+  &__bottom-link {
+    color: #fff;
+
+    &:hover {
+      display: inline-block;
+      border-bottom: 1px solid #fff;
+    }
+  }
+
+  @media screen and (max-width: $xsmall-break-point) {
+    height: 100%;
+
+    &__navigation {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &__logo {
+      margin-right: -2rem;
+      text-align: center;
+    }
+
+    &__list-link {
+      margin-bottom: 2rem;
+    }
+
+    &__container-bottom {
+      margin-top: 2rem;
+    }
+
+    &__bottom-recipes {
+      font-size: 8rem;
+    }
+  }
+}

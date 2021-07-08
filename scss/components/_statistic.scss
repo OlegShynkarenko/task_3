@@ -1,0 +1,37 @@
+.statistic {
+  padding: 6rem 0 6rem 0;
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+  &__list-item {
+    text-align: center;
+  }
+
+  &__list-amount {
+    display: block;
+    font-size: 3.6rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+
+  &__list-description {
+    font-size: 1.6rem;
+    font-weight: 100;
+    text-align: center;
+  }
+
+  @media screen and (max-width: $small-break-point) {
+    padding: 2rem 0 2rem 0;
+    &__list {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+}
